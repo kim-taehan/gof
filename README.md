@@ -5,9 +5,9 @@
 ### 1.1 생성패턴 (creational_patterns)
 > 생성 패턴들은 기존 코드의 재활용과 유연성을 증가시키는 객체 생성 메커니즘들을 제공합니다.
 
-#### [1.1.1 singleton](src/main/java/developx/gof/creational_patterns/singleton/README.md)
+#### [1.1.1 singleton](src/main/java/org/developx/gof/creational_patterns/singleton/README.md)
 - 인스턴스를 오직 한개만 제공하는 클래스
-
+  
 
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
