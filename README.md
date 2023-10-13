@@ -5,7 +5,7 @@
 ### 1.1 생성패턴 (creational_patterns)
 > 생성 패턴들은 기존 코드의 재활용과 유연성을 증가시키는 객체 생성 메커니즘들을 제공합니다.
 
-#### [1.1.1 singleton](src/main/java/study/patterns/creational_patterns/singleton/README.md)
+#### [1.1.1 singleton](src/main/java/developx/gof/creational_patterns/singleton/README.md)
 - 인스턴스를 오직 한개만 제공하는 클래스
 
 
