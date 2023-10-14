@@ -25,6 +25,17 @@
 #### [2.1.1 adapter](src/main/java/org/developx/gof/structural_patterns/adapter/README.md)
 - 기존 코드를 클라이언트가 사용하는 인터페이스의 구현체로 바꿔주는 패턴
 
+#### [2.1.2 bridge](src/main/java/org/developx/gof/structural_patterns/bridge/README.md)
+- 추상적인 것과 구체적인 것을 분리하여 연결하는 패턴
+
+#### [2.1.3 composite](src/main/java/org/developx/gof/structural_patterns/composite/README.md)
+- 그룹 전체와 개별 객체를 동일하게 처리할 수 있는 패턴
+
+#### [2.1.4 decorator](src/main/java/org/developx/gof/structural_patterns/decorator/README.md)
+- 기존 코드를 변경하지 않고 부가 기능을 추가하는 패턴
+
+#### [2.1.5 facade](src/main/java/org/developx/gof/structural_patterns/facade/README.md)
+- 복잡한 서브 시스템 의존성을 최소화하는 방법
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
 ### 2.1 SRP(Single Responsibility Principle): 단일 책임 원칙
