@@ -8,9 +8,16 @@
 #### [1.1.1 singleton](src/main/java/org/developx/gof/creational_patterns/singleton/README.md)
 - 인스턴스를 오직 한개만 제공하는 클래스
 
-#### [1.1.2 factory method](src/main/java/org/developx/gof/creational_patterns/singleton/README.md)
-- 인스턴스를 오직 한개만 제공하는 클래스
-  Factory method
+#### [1.1.2 factory method](src/main/java/org/developx/gof/creational_patterns/factory_method/README.md)
+- 구체적으로 어떤 인스턴스를 만들지는 서브 클래스가 정한다.
+
+#### [1.1.3 abstract factory](src/main/java/org/developx/gof/creational_patterns/abstract_factory/README.md)
+- 관련있는 여러 객체를 구체적인 클래스에 의존하지 않고 만들 수 있다.
+
+
+
+
+
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
 ### 2.1 SRP(Single Responsibility Principle): 단일 책임 원칙
