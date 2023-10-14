@@ -14,9 +14,16 @@
 #### [1.1.3 abstract factory](src/main/java/org/developx/gof/creational_patterns/abstract_factory/README.md)
 - 관련있는 여러 객체를 구체적인 클래스에 의존하지 않고 만들 수 있다.
 
+#### [1.1.4 builder](src/main/java/org/developx/gof/creational_patterns/builder/README.md)
+- 동일한 프로세스를 거쳐 다양한 구성의 인스턴스를 만드는 방법
 
+#### [1.1.4 prototype](src/main/java/org/developx/gof/creational_patterns/prototype/README.md)
+- 기존 인스턴스를 복제하여 새로운 인스턴스를 만드는 방법
 
+### 1.2 구조패턴 (structural_patterns)
 
+#### [2.1.1 adapter](src/main/java/org/developx/gof/structural_patterns/adapter/README.md)
+- 기존 코드를 클라이언트가 사용하는 인터페이스의 구현체로 바꿔주는 패턴
 
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
