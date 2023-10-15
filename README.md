@@ -54,6 +54,9 @@
 #### [1.3.2 command](src/main/java/org/developx/gof/behavioral_patterns/command)
 - 요청을 캡슐화 하여 호출자(invoker)와 수신자(receiver)를 분리하는 패턴
 
+#### [1.3.3 interpreter](src/main/java/org/developx/gof/behavioral_patterns/interpreter)
+- 자주 등장하는 문제를 간단한 언어로 정의하고 재사용하는 패턴
+
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
 ### 2.1 SRP(Single Responsibility Principle): 단일 책임 원칙
