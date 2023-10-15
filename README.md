@@ -67,7 +67,14 @@
 - 캡슐화를 유지하면서 객체 내부 상태를 외부에 저장하는 방법
 
 #### [1.3.7 observer](src/main/java/org/developx/gof/behavioral_patterns/observer)
-- 다수의 객체가 특정 객체 상태 변화를 감지하고 알림을 받는 패턴
+- 다수의 객체가 특정 객체 상태 변화를 감지하고 알림을 받는 패턴 
+
+#### [1.3.8 state](src/main/java/org/developx/gof/behavioral_patterns/state)
+- 객체 내부 상태 변경에 따라 객체의 행동이 달라지는 패턴
+
+#### [1.3.9 strategy](src/main/java/org/developx/gof/behavioral_patterns/strategy)
+- 여러 알고리듬을 캡슐화하고 상호 교환 가능하게 만드는 패턴
+
 
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
