@@ -75,6 +75,15 @@
 #### [1.3.9 strategy](src/main/java/org/developx/gof/behavioral_patterns/strategy)
 - 여러 알고리듬을 캡슐화하고 상호 교환 가능하게 만드는 패턴
 
+#### [1.3.10 template_method](src/main/java/org/developx/gof/behavioral_patterns/template_method)
+- 알고리듬 구조를 서브 클래스가 확장할 수 있도록 템플릿으로 제공하는 방법
+
+#### [1.3.11 template_callback](src/main/java/org/developx/gof/behavioral_patterns/template_callback)
+- 콜백으로 상속 대신 위임을 사용하는 템플릿 패턴
+
+#### [1.3.11 visitor](src/main/java/org/developx/gof/behavioral_patterns/visitor)
+- 기존 코드를 변경하지 않고 새로운 기능을 추가하는 방법.
+
 
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
