@@ -57,6 +57,16 @@
 #### [1.3.3 interpreter](src/main/java/org/developx/gof/behavioral_patterns/interpreter)
 - 자주 등장하는 문제를 간단한 언어로 정의하고 재사용하는 패턴
 
+#### [1.3.4 interator](src/main/java/org/developx/gof/behavioral_patterns/interator)
+- 집합 객체 내부 구조를 노출시키지 않고 순회 하는 방법을 제공하는 패턴
+
+#### [1.3.5 mediator](src/main/java/org/developx/gof/behavioral_patterns/mediator) 
+- 여러 객체들이 소통하는 방법을 캡슐화하는 패턴
+ 
+#### [1.3.6 memento](src/main/java/org/developx/gof/behavioral_patterns/memento)
+- 캡슐화를 유지하면서 객체 내부 상태를 외부에 저장하는 방법
+
+
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
 ### 2.1 SRP(Single Responsibility Principle): 단일 책임 원칙
