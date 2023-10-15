@@ -21,6 +21,7 @@
 - 기존 인스턴스를 복제하여 새로운 인스턴스를 만드는 방법
 
 ### 1.2 구조패턴 (structural_patterns)
+> 구조 패턴은 구조를 유연하고 효율적으로 유지하면서 객체와 클래스를 더 큰 구조로 조합하는 방법을 설명합니다.
 
 #### [2.1.1 adapter](src/main/java/org/developx/gof/structural_patterns/adapter/README.md)
 - 기존 코드를 클라이언트가 사용하는 인터페이스의 구현체로 바꿔주는 패턴
@@ -36,6 +37,19 @@
 
 #### [2.1.5 facade](src/main/java/org/developx/gof/structural_patterns/facade/README.md)
 - 복잡한 서브 시스템 의존성을 최소화하는 방법
+
+#### [2.1.5 flyweight](src/main/java/org/developx/gof/structural_patterns/flyweight/README.md)
+- 객체를 가볍게 만들어 메모리 사용을 줄이는 패턴
+
+#### [2.1.6 proxy](src/main/java/org/developx/gof/structural_patterns/proxy/README.md)
+- 특정 객체에 대한 접근을 제어하거나 기능을 추가할 수 있는 패턴
+
+
+### 1.3 행동패턴 (behavioral_patterns)
+> 행동 패턴은 객체 간의 효과적인 의사소통과 책임 할당을 처리합니다.
+
+
+
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.
 ### 2.1 SRP(Single Responsibility Principle): 단일 책임 원칙
