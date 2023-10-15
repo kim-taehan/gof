@@ -34,7 +34,7 @@ class MediatorTest {
         Assertions.assertThat(comment).isEqualTo("hello ColleagueB");
     }
 
-    @DisplayName("")
+    @DisplayName("호텔에 체크인하여 룸서비스를 이용할 수 있다.")
     @Test
     void hotelServiceTest(){
         // given

@@ -1,0 +1,17 @@
+package org.developx.gof.behavioral_patterns.memento.code.basic;
+
+public class Originator {
+    private String state;
+    public void setState(String state) {
+        this.state = state;
+    }
+    public String getState() {
+        return state;
+    }
+    public Memento save() {
+        return new Memento(state);
+    }
+    public void restore(Memento memento) {
+        this.state = memento.state();
+    }
+}
