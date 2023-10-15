@@ -5,43 +5,43 @@
 ### 1.1 생성패턴 (creational_patterns)
 > 생성 패턴들은 기존 코드의 재활용과 유연성을 증가시키는 객체 생성 메커니즘들을 제공합니다.
 
-#### [1.1.1 singleton](src/main/java/org/developx/gof/creational_patterns/singleton/README.md)
+#### [1.1.1 singleton](src/main/java/org/developx/gof/creational_patterns/singleton)
 - 인스턴스를 오직 한개만 제공하는 클래스
 
-#### [1.1.2 factory method](src/main/java/org/developx/gof/creational_patterns/factory_method/README.md)
+#### [1.1.2 factory method](src/main/java/org/developx/gof/creational_patterns/factory_method)
 - 구체적으로 어떤 인스턴스를 만들지는 서브 클래스가 정한다.
 
-#### [1.1.3 abstract factory](src/main/java/org/developx/gof/creational_patterns/abstract_factory/README.md)
+#### [1.1.3 abstract factory](src/main/java/org/developx/gof/creational_patterns/abstract_factory)
 - 관련있는 여러 객체를 구체적인 클래스에 의존하지 않고 만들 수 있다.
 
-#### [1.1.4 builder](src/main/java/org/developx/gof/creational_patterns/builder/README.md)
+#### [1.1.4 builder](src/main/java/org/developx/gof/creational_patterns/builder)
 - 동일한 프로세스를 거쳐 다양한 구성의 인스턴스를 만드는 방법
 
-#### [1.1.4 prototype](src/main/java/org/developx/gof/creational_patterns/prototype/README.md)
+#### [1.1.4 prototype](src/main/java/org/developx/gof/creational_patterns/prototype)
 - 기존 인스턴스를 복제하여 새로운 인스턴스를 만드는 방법
 
 ### 1.2 구조패턴 (structural_patterns)
 > 구조 패턴은 구조를 유연하고 효율적으로 유지하면서 객체와 클래스를 더 큰 구조로 조합하는 방법을 설명합니다.
 
-#### [1.2.1 adapter](src/main/java/org/developx/gof/structural_patterns/adapter/README.md)
+#### [1.2.1 adapter](src/main/java/org/developx/gof/structural_patterns/adapter)
 - 기존 코드를 클라이언트가 사용하는 인터페이스의 구현체로 바꿔주는 패턴
 
-#### [1.2.2 bridge](src/main/java/org/developx/gof/structural_patterns/bridge/README.md)
+#### [1.2.2 bridge](src/main/java/org/developx/gof/structural_patterns/bridge)
 - 추상적인 것과 구체적인 것을 분리하여 연결하는 패턴
 
-#### [1.2.3 composite](src/main/java/org/developx/gof/structural_patterns/composite/README.md)
+#### [1.2.3 composite](src/main/java/org/developx/gof/structural_patterns/composite)
 - 그룹 전체와 개별 객체를 동일하게 처리할 수 있는 패턴
 
-#### [1.2.4 decorator](src/main/java/org/developx/gof/structural_patterns/decorator/README.md)
+#### [1.2.4 decorator](src/main/java/org/developx/gof/structural_patterns/decorator)
 - 기존 코드를 변경하지 않고 부가 기능을 추가하는 패턴
 
-#### [1.2.5 facade](src/main/java/org/developx/gof/structural_patterns/facade/README.md)
+#### [1.2.5 facade](src/main/java/org/developx/gof/structural_patterns/facade)
 - 복잡한 서브 시스템 의존성을 최소화하는 방법
 
-#### [1.2.5 flyweight](src/main/java/org/developx/gof/structural_patterns/flyweight/README.md)
+#### [1.2.5 flyweight](src/main/java/org/developx/gof/structural_patterns/flyweight)
 - 객체를 가볍게 만들어 메모리 사용을 줄이는 패턴
 
-#### [1.2.6 proxy](src/main/java/org/developx/gof/structural_patterns/proxy/README.md)
+#### [1.2.6 proxy](src/main/java/org/developx/gof/structural_patterns/proxy)
 - 특정 객체에 대한 접근을 제어하거나 기능을 추가할 수 있는 패턴
 
 
@@ -66,6 +66,8 @@
 #### [1.3.6 memento](src/main/java/org/developx/gof/behavioral_patterns/memento)
 - 캡슐화를 유지하면서 객체 내부 상태를 외부에 저장하는 방법
 
+#### [1.3.7 observer](src/main/java/org/developx/gof/behavioral_patterns/observer)
+- 다수의 객체가 특정 객체 상태 변화를 감지하고 알림을 받는 패턴
 
 ## 2. SOLID
 > SOLID 원칙이란 객체지향 설계에서 지켜줘야 할 5개의 소프트웨어 개발 원칙( SRP, OCP, LSP, ISP, DIP )을 말한다.

@@ -7,9 +7,7 @@ import org.developx.gof.behavioral_patterns.memento.code.game.GameState;
 import org.developx.gof.behavioral_patterns.memento.code.game.GameTaker;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
+@DisplayName("[행동패턴] memento pattern")
 class MementoTest {
 
     @DisplayName("메멘토패턴을 동해 변경상황을 복구해본다.")
